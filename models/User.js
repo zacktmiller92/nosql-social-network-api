@@ -19,4 +19,10 @@ const UserSchema = new Schema(
     }
 );
 
+const User = model('User', UserSchema);
+
+
+
+module.exports = User;
+
 // regex from: https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
