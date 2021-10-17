@@ -3,7 +3,6 @@ const { User, Thought } = require('../models');
 const userController = {
 
     getAllUsers(req, res) {
-        console.log('test')
         User.find({})
             // .populate({
             //     path: 'comments',
