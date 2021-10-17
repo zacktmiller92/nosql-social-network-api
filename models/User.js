@@ -16,6 +16,15 @@ const UserSchema = new Schema(
             match: /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()\.,;\s@\"]+\.{0,1})+[^<>()\.,;:\s@\"]{2,})$/
         },
 
+        thoughts: [
+            {
+                type: Schema.Types.ObjectId,
+                ref: 'Thought',
+            },
+        ],
+    },
+    {
+        id: false,
     }
 );
 
