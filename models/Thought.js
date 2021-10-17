@@ -54,7 +54,7 @@ const ThoughtSchema = new Schema(
 
 
 
-const User = model('Thought', ThoughtSchema);
+const Thought = model('Thought', ThoughtSchema);
 
 // Create a virtual called reactionCount that retrieves the length of the thought's reactions array field on query.
 
