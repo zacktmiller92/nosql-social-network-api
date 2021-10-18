@@ -12,7 +12,7 @@ This project is designed to create an api using a nosql database for a social me
 
 
 ## Video
-
+https://drive.google.com/file/d/1gHgY03n8OuaPnXbsitAhsQefBE7YymBb/view?usp=sharing
 
 ## Credits
 Created by Zack Miller at Rutgers Coding Bootcamp
